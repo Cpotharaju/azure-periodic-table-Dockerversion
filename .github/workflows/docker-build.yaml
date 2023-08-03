@@ -25,6 +25,6 @@ jobs:
     - name: Build and Push Docker Image
       uses: docker/build-push-action@v2
       with:
-        context: .
+        context: Dockerfile
         push: true
         tags: ${{ secrets.AZUREPERIODICTABLE_USERNAME }}/azure-periodic-table-dockerversion:latest
