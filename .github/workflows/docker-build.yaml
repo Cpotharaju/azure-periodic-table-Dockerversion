@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.AZUREPERIODICTABLE_USERNAME }}/azure-periodic-table-Dockerversion:latest
+        tags: ${{ secrets.AZUREPERIODICTABLE_USERNAME }}/azure-periodic-table-dockerversion:latest
